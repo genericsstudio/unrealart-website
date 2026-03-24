@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className="relative h-screen w-full overflow-hidden bg-black">
       {/* Dither background */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 animate-appear-fade" style={{ animationDelay: "300ms" }}>
         <DitherBackground
           waveColor={[0.5, 0.5, 0.5]}
-          waveSpeed={0.05}
+          waveSpeed={0.02}
           waveFrequency={3}
           waveAmplitude={0.3}
           colorNum={4}
-          pixelSize={2}
+          pixelSize={3}
           disableAnimation={false}
           enableMouseInteraction={true}
           mouseRadius={0.3}
@@ -28,9 +28,11 @@ export default function Home() {
           width={320}
           height={84}
           priority
+          className="animate-appear"
+          style={{ animationDelay: "660ms" }}
         />
 
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center animate-appear" style={{ animationDelay: "1090ms" }}>
           <h1
             className="text-4xl italic text-white"
             style={{ fontFamily: "var(--font-instrument-serif)" }}
@@ -45,7 +47,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="flex items-center rounded-full border border-white/20 bg-white/5 p-1 backdrop-blur-sm">
+        <div className="flex items-center rounded-full border border-white/20 bg-white/5 p-1 backdrop-blur-sm animate-appear" style={{ animationDelay: "2200ms" }}>
           <input
             type="email"
             placeholder="your@email.com"

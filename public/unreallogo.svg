@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 1890 648" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-2091.62,0)">
-        <g id="Artboard1" transform="matrix(0.821313,0,0,0.452676,5942.48,330.521)">
-            <rect x="-4688.66" y="-730.149" width="2300.91" height="1429.82" style="fill:none;"/>
+<svg width="100%" height="100%" viewBox="0 0 1243 324" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2415.28,-161.811)">
+        <g transform="matrix(0.821313,0,0,0.452676,5942.48,330.521)">
             <g transform="matrix(1.21756,0,0,2.20908,-4939.77,-3630.77)">
                 <g>
                     <g transform="matrix(5.72265,0,0,5.72265,-3788.05,-7021.86)">
@@ -21,6 +20,8 @@
                     </g>
                 </g>
             </g>
+        </g>
+        <g transform="matrix(0.821313,0,0,0.452676,5942.48,330.521)">
             <g transform="matrix(14.8132,0,0,26.8762,-16455.6,-39945.7)">
                 <path d="M824.764,1483.81L824.764,1487.61L820.964,1487.61L820.964,1483.81L822.92,1483.81L822.92,1480.01L824.764,1480.01L824.764,1476.21L826.72,1476.21L826.72,1472.41L830.52,1472.41L830.52,1476.21L832.364,1476.21L832.364,1480.01L834.32,1480.01L834.32,1483.81L838.12,1483.81L838.12,1480.01L839.964,1480.01L839.964,1476.21L841.92,1476.21L841.92,1472.41L845.72,1472.41L845.72,1476.21L847.564,1476.21L847.564,1480.01L845.72,1480.01L845.72,1483.81L839.964,1483.81L839.964,1487.61L838.12,1487.61L838.12,1491.41L836.164,1491.41L836.164,1495.21L834.32,1495.21L834.32,1499.01L830.52,1499.01L830.52,1495.21L832.364,1495.21L832.364,1491.41L834.32,1491.41L834.32,1487.61L832.364,1487.61L832.364,1483.81L830.52,1483.81L830.52,1480.01L826.72,1480.01L826.72,1483.81L824.764,1483.81Z" style="fill:white;"/>
             </g>

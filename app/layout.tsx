@@ -13,8 +13,8 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Unreal Art",
-  description: "Digital art beyond imagination",
+  title: "UnrealArt",
+  description: "Defy expectations",
 };
 
 export default function RootLayout({

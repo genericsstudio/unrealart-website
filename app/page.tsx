@@ -1,5 +1,6 @@
 import Image from "next/image";
 import DitherBackground from "../components/DitherBackground";
+import { Button } from "../components/ui/button";
 
 export default function Home() {
   return (
@@ -29,19 +30,36 @@ export default function Home() {
           priority
         />
 
-        <div className="flex flex-col items-center gap-2">
-          <p
-            className="text-xl font-light tracking-[0.25em] text-white/60 uppercase"
-            style={{ fontFamily: "var(--font-geist-sans)" }}
-          >
-            Where creativity
-          </p>
+        <div className="flex flex-col items-center">
           <h1
-            className="text-5xl font-semibold italic text-white"
+            className="text-4xl italic text-white"
             style={{ fontFamily: "var(--font-instrument-serif)" }}
           >
-            defies reality.
+            Where creativity
           </h1>
+          <p
+            className="text-2xl tracking-wide text-white"
+            style={{ fontFamily: "var(--font-geist-pixel-square)" }}
+          >
+            defies reality
+          </p>
+        </div>
+
+        <div className="flex items-center rounded-full border border-white/20 bg-white/5 p-1 backdrop-blur-sm">
+          <input
+            type="email"
+            placeholder="your@email.com"
+            disabled
+            className="w-52 bg-transparent px-4 py-1.5 text-sm text-white/50 placeholder:text-white/25 outline-none cursor-not-allowed"
+            style={{ fontFamily: "var(--font-geist-sans)" }}
+          />
+          <Button
+            disabled
+            className="rounded-full bg-white px-5 py-1.5 text-sm font-medium text-black cursor-not-allowed opacity-60 hover:bg-white"
+            style={{ fontFamily: "var(--font-geist-sans)" }}
+          >
+            Get on the waitlist
+          </Button>
         </div>
       </div>
     </div>

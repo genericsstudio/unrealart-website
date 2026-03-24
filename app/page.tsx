@@ -31,9 +31,8 @@ export default function Home() {
           width={320}
           height={84}
           priority
-          style={{ height: "auto" }}
           className="animate-appear"
-          style={{ animationDelay: "660ms" }}
+          style={{ height: "auto", animationDelay: "660ms" }}
         />
 
         <div className="flex flex-col items-center animate-appear" style={{ animationDelay: "1090ms" }}>

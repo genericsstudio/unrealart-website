@@ -20,6 +20,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-black/10" />
         <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.75) 100%)" }} />
+        <div className="absolute inset-0" style={{ backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)", maskImage: "radial-gradient(ellipse at center, transparent 35%, black 75%)", WebkitMaskImage: "radial-gradient(ellipse at center, transparent 35%, black 75%)" }} />
       </div>
 
       {/* Content */}
@@ -30,6 +31,7 @@ export default function Home() {
           width={320}
           height={84}
           priority
+          style={{ height: "auto" }}
           className="animate-appear"
           style={{ animationDelay: "660ms" }}
         />
@@ -49,6 +51,7 @@ export default function Home() {
           </p>
         </div>
 
+        <div className="flex flex-col items-center gap-4">
         <div className="flex items-center rounded-full border border-white/20 bg-white/5 p-1 backdrop-blur-sm animate-appear" style={{ animationDelay: "2200ms" }}>
           <input
             type="email"
@@ -64,6 +67,15 @@ export default function Home() {
           >
             Get on the waitlist
           </Button>
+        </div>
+
+        <a
+          href="mailto:contact@unreal.art"
+          className="animate-appear rounded-full border border-white/20 bg-white/5 px-5 py-2 backdrop-blur-sm text-xs text-white/50 tracking-widest uppercase transition-colors duration-500 hover:text-white/80 hover:bg-white/10"
+          style={{ animationDelay: "2900ms", fontFamily: "var(--font-geist-sans)", letterSpacing: "0.2em" }}
+        >
+          contact@unreal.art
+        </a>
         </div>
       </div>
     </div>

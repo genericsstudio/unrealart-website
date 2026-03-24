@@ -15,6 +15,7 @@ const instrumentSerif = Instrument_Serif({
 export const metadata: Metadata = {
   title: "UnrealArt",
   description: "Defy expectations",
+  themeColor: "#000000",
 };
 
 export default function RootLayout({
@@ -25,9 +26,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${GeistSans.variable} ${GeistMono.variable} ${GeistPixelSquare.variable} ${instrumentSerif.variable} h-full antialiased`}
+      className={`${GeistSans.variable} ${GeistMono.variable} ${GeistPixelSquare.variable} ${instrumentSerif.variable} h-full antialiased bg-black`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col bg-black">{children}</body>
     </html>
   );
 }

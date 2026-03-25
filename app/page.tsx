@@ -18,9 +18,8 @@ export default function Home() {
           enableMouseInteraction={true}
           mouseRadius={0.3}
         />
-        <div className="absolute inset-0 bg-black/10" />
+        <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.75) 100%)" }} />
-        <div className="absolute inset-0" style={{ backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)", maskImage: "radial-gradient(ellipse at center, transparent 35%, black 75%)", WebkitMaskImage: "radial-gradient(ellipse at center, transparent 35%, black 75%)" }} />
       </div>
 
       {/* Content */}
